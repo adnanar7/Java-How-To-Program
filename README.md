@@ -10,5 +10,5 @@ The purpose of this repo is to practice Java programming, strengthen problem-sol
 
 ---
 
+![ ](cat.gif)
 
-C:\Users\Administrator\Documents\GitHub\Java-How-To-Program\cat.gif
