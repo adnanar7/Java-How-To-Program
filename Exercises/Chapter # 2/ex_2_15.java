@@ -8,9 +8,9 @@
 import java.util.Scanner;
 
 /**
- * 2.15 (Arithmetic) Write an application that asks the user to enter two integers, obtains them
-from the user and prints their sum, product, difference and quotient (division). Use the techniques
-shown in Fig. 2.7.
+2.15 (Arithmetic) Write an application that asks the user to enter two integers, obtains them
+from the user and prints the square of each, the sum of their squares, and the difference of the squares
+(first number squared minus the second number squared). Use the techniques shown in Fig. 2.7.
 
  */
 public class ex_2_15 {
@@ -23,14 +23,17 @@ public class ex_2_15 {
         System.out.println("Enter 2nd Integer: ");
         int num2 = input.nextInt();
 
-        int sum = num1 + num2;
-        int diff = num1 - num2;
-        int prod = num1 * num2;
-        int div = num1 / num2;
+        int num1_sq = num1 * num1;
+        int num2_sq = num2 * num2;
 
-        System.out.println("Sum is " + sum);
-        System.out.println("Difference is " + diff);
-        System.out.println("Product  is " + prod);
-        System.out.println("Division is " + div);
+        int sum_sq = num1_sq + num2_sq;
+
+        System.out.println("Square of "+ num1 +" is : " +  num1_sq);
+        System.out.println("Square of " + num2 +" is : " +  num2_sq);
+        System.out.println("Sum of the Squares of " + num1 +" and " + num2 + " is : "+ sum_sq);
+
+        System.out.println("Difference of squares is : " + (num1_sq - num2_sq));
+    
+
     }
 }
